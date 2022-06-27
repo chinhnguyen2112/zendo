@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins", sans-serif !important; */
+}
+
+
+/* css trang chu */
+
+.fsz_16b {
+    font-size: 16px !important;
+    font-weight: bold;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.sidebar {
+    width: 300px !important;
+}
+
+.navbar-breadcrumb {
+    margin-top: 20px !important;
+}
+
+.icon_none {
+    display: none;
+}
+
+
+/* css cai dat page acc */
+
+.block-themed {}
+
+.ml_-30 {
+    margin-left: -30px;
+}
+
+.mb20 {
+    margin-bottom: 20px !important;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.block-header h3 {
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+/* css cai dat chung */
+
+.full_width {
+    /* width: 100% !important; */
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.block-header {
+    background-color: #70b9eb;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 7px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #46c37b;
+    border-color: #34a263;
+}
+
+.btn {
+    font-weight: 600;
+    border-radius: 2px;
+    transition: all 0.15s ease-out;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+
+/* css setting random */
+
+.content-anh {
+    margin: 20px 0;
+}
+
+
+/* css manager blog */
+
+.padding_chung {
+    padding: 10px 50px 0 50px !important;
+}
+
+.title_manager_blog {
+    height: 45px;
+    justify-content: space-between;
+}
+
+.main_title {
+    text-decoration: none;
+    color: #646464;
+    background-color: #fff;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.active {
+    list-style-type: none;
+}
+
+.list_account {
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.list_account table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.list_account table th {
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 40px;
+}
+
+.list_account table td {
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 50px;
+}
+
+.link_blog,
+.btn-group a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.page_account {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.page_account p {
+    border: 1px solid #418704;
+    border-radius: 5px;
+    color: #7eb726;
+    cursor: pointer;
+    display: inline;
+    float: none;
+    line-height: 33px;
+    margin-left: 2px;
+    margin-right: 3px;
+    padding: 5px 9px;
+    text-decoration: none;
+}
+
+
+/* css post lm */
+
+.flex_center {
+    display: flex;
+    align-items: center;
+}
+
+.space_bet {
+    justify-content: space-between;
+}
+
+input[type=number],
+input[type=champs_count],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 7px;
+}
+
+.form-control {
+    border: 1px solid #e6e6e6;
+    color: #646464;
+    width: 100%;
+    padding: 8px;
+    margin-top: 7px;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+
+.col-xs-6 {
+    width: 50%;
+}
+
+.tit_lmht {
+    height: 50px;
+    text-align: center;
+}
+
+.tit_lmht a {
+    line-height: 50px;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 3px solid #ccc;
+}
+
+
+/* css lien minh random */
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.ml50 {
+    margin-left: 50px;
+}
+
+
+/* css dang lien quan */
+
+.main_info_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w33 {
+    width: 33%;
+}
+
+.select2-selection__rendered li {
+    list-style-type: none;
+}
+
+.input_acc_random {
+    width: 50%;
+    height: 200px;
+}
+
+
+/* css lien quan random */
+
+.post_lq_random {
+    width: calc(100% - 300px);
+}
+
+
+/* css tai khoan */
+
+.none {
+    display: none !important;
+}
+
+.open_flex {
+    display: flex;
+}
+
+.open_block {
+    display: block;
+}
+
+.table thead th {
+    border: 1px solid #ccc !important;
+}
+
+.tab_tit {
+    padding: 10px;
+    background: #ccc;
+    border-radius: 5px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.row_acc,
+.row_transaction,
+.row_member,
+.row_ls_quay,
+.post_freefire_random,
+.row_add_gift,
+.row_add_category {
+    width: calc(100% - 300px);
+    padding-left: 50px;
+}
+
+.row_gift,
+.row_edit_member,
+.row_edit_acc,
+.row_category,
+.row_gold_time {
+    width: calc(100% - 300px);
+}
+
+.input-group-btn {
+    background: #57c7d4;
+    border-radius: 5px;
+    height: 46px;
+}
+
+.white_text {
+    color: #fff;
+}
+
+.mt7 {
+    margin-top: 7px;
+}
+
+.table td {
+    border: 1px solid #ccc;
+}
+
+.thumbnail {
+    text-align: center;
+}
+
+.js-widget-line1 canvas,
+.js-widget-line2 canvas,
+.js-widget-line3 canvas {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.nav>li>a {
+    padding: 10px;
+    border: none !important;
+    background-color: #fff !important;
+    font-weight: normal !important;
+}
+
+.sidebar .nav-item {
+    list-style-type: disc !important;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.sidebar .nav.sub-menu .nav-item .nav-link {
+    padding: 0.7rem 1rem 0.7rem 0 !important;
+}
+
+.sidebar .nav.sub-menu {
+    margin-left: 25px !important;
+}
+
+
+/* css gold time */
+
+.row_gold_time {
+    text-align: center;
+}
+
+.tit_gold_time {
+    margin-bottom: 30px;
+}
+
+.tit_gold_time p {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.body_gold_time button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.body_gold_time button:hover {
+    color: #fff;
+}
+
+.turn_on_gtime {
+    background: #73b009;
+    margin-right: 50px;
+}
+
+.turn_off_gtime {
+    background: #e67300;
+}
+
+@media only screen and (max-width: 768px) {
+    .row_acc,
+    .row_transaction,
+    .row_member,
+    .row_ls_quay,
+    .post_freefire_random,
+    .row_add_gift,
+    .row_add_category {
+        width: 95%;
+    }
+    .padding_chung {
+        padding: 10px 10px 0 10px !important;
+    }
+    .row_gift,
+    .row_edit_member,
+    .row_edit_acc,
+    .row_category,
+    .row_gold_time {
+        width: 100%;
+    }
+    .col-lg-4 {
+        width: 100%!important;
+    }
+    form {
+        width: max-content !important;
+        max-width: 1280px;
+    }
+    .row_edit_member form {
+        width: 100% !important;
+    }
+}
